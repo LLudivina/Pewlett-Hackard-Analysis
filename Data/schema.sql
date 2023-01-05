@@ -1,5 +1,3 @@
---  Data is from https://github.com/vrajmohan/pgsql-sample-data/tree/master/employee
--- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
   dept_no VARCHAR(4) NOT NULL,
   dept_name VARCHAR(40) NOT NULL,
@@ -54,3 +52,5 @@ CREATE TABLE salaries (
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no, from_date)
 );
+
+SELECT * FROM departments;
