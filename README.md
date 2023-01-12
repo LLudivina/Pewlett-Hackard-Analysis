@@ -1,9 +1,9 @@
 # Pewlett-Hackard-Analysis
 
-# Overview of the Project:
+## Overview of the Project:
 For this module, we were tasked with helping Bobby perform employee research.  As an HR analyst, Bobby was instructed to find out which employees will be retiring in the next few years and how many positions the company will need to fill.  The employee data was available in six CSV files through the use of Excel and VBA.  However, Pewlett Hackard decided to update their methods to make use of a Structured Query Language (SQL).  This is where Bobby needed assistance.  After this analysis was completed, two more assignments were added to determine the number of employees per title and to identify the employees who were eligible to participate in a mentorship program.   
 
-## *purpose*
+### *purpose*
 The purpose of this project was to build an employee database with SQL and help Bobby complete the two last assignments using data modeling, engineering, and analysis skills. 
 
 ## Results 
@@ -24,7 +24,7 @@ For this part of the project, a query was first created to retrieve data and mak
 ### Deliverable #2, Employees Eligible for the Mentorship Program
 Moving on to deliverable 2, a new query was written and executed to create a table of employees that were eligible for a mentorship program.  A quick glimpse of the table can be seen below as table 1. 
 
-### *Table 1*
+#### *Table 1*
 
 ![Alt text](Data/resources/mentorship_eligibility%20table.png)
 
